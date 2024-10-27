@@ -1,14 +1,11 @@
 const RADIO_NAME = 'Jailson Web Rádio';
 
 // Change Stream URL Here, Supports, ICECAST, ZENO, SHOUTCAST, RADIOJAR and any other stream service.
-const URL_STREAMING = 'https://stream.zeno.fm/yn65fsaurfhvv';
+const URL_STREAMING = 'https://uk4freenew.listen2myradio.com/live.mp3?typeportmount=s2_15343_stream_885768938';
 
 //API URL /
-const API_URL = 'https://twj.es/radio_info/?radio_url='+URL_STREAMING;
+const API_URL = 'https://killyouridol.altervista.org/kyi/'+URL_STREAMING;
 const FALLBACK_API_URL = 'https://api-v2.streamafrica.net/icyv2?url=' + URL_STREAMING;
-
-// Visit https://api.vagalume.com.br/docs/ to get your API key
-const API_KEY = "18fe07917957c289983464588aabddfb";
 
 let userInteracted = true;
 
